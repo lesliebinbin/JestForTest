@@ -1,11 +1,11 @@
 [
     {
-        "merged": "D:\\AndroidProject\\GooglePlay\\android-support-v7-appcompat\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\abc_spinner_ab_focused_holo_light.9.png",
-        "source": "D:\\AndroidProject\\GooglePlay\\android-support-v7-appcompat\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\abc_spinner_ab_focused_holo_light.9.png"
-    },
-    {
         "merged": "D:\\AndroidProject\\GooglePlay\\android-support-v7-appcompat\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\abc_ic_cab_done_holo_light.png",
         "source": "D:\\AndroidProject\\GooglePlay\\android-support-v7-appcompat\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\abc_ic_cab_done_holo_light.png"
+    },
+    {
+        "merged": "D:\\AndroidProject\\GooglePlay\\android-support-v7-appcompat\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\abc_spinner_ab_focused_holo_light.9.png",
+        "source": "D:\\AndroidProject\\GooglePlay\\android-support-v7-appcompat\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\abc_spinner_ab_focused_holo_light.9.png"
     },
     {
         "merged": "D:\\AndroidProject\\GooglePlay\\android-support-v7-appcompat\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\abc_ab_share_pack_holo_light.9.png",

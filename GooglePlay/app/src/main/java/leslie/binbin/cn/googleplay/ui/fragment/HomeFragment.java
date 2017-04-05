@@ -12,6 +12,7 @@ import leslie.binbin.cn.googleplay.ui.adapter.MyBaseAdapter;
 import leslie.binbin.cn.googleplay.ui.holder.BaseHolder;
 import leslie.binbin.cn.googleplay.ui.holder.HomeHolder;
 import leslie.binbin.cn.googleplay.ui.view.LoadingPage;
+import leslie.binbin.cn.googleplay.ui.view.MyListView;
 import leslie.binbin.cn.googleplay.utils.UIUtils;
 
 public class HomeFragment extends BaseFragment {
@@ -23,7 +24,8 @@ public class HomeFragment extends BaseFragment {
     public View onCreateSuccessView() {
 //        TextView view = new TextView(UIUtils.getContext());
 //        view.setText(getClass().getSimpleName());
-        ListView view = new ListView(UIUtils.getContext());
+        ListView view = new MyListView(UIUtils.getContext());
+
         view.setAdapter(new HomeAdapter(data));
         return view;
     }

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:leslie="http://schemas.android.com/apk/res-auto"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:background="@drawable/list_item_bg_selector"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+        <leslie.binbin.cn.googleplay.ui.view.RatioLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            leslie:ratio="2.43"
+            >
+        <ImageView
+            android:id="@+id/iv_pic"
+            android:layout_width="match_parent"
+            android:src="@drawable/subject_default"
+            android:layout_height="match_parent"/>
+        </leslie.binbin.cn.googleplay.ui.view.RatioLayout>
+
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="match_parent"
+            android:text="标题"
+            android:textColor="#000"
+            android:textSize="18sp"
+            android:padding="5dp"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+</LinearLayout>

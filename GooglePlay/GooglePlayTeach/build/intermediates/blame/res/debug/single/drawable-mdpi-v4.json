@@ -4,20 +4,20 @@
         "source": "D:\\AndroidProject\\GooglePlay\\android-support-v7-appcompat\\build\\intermediates\\bundles\\default\\res\\drawable-mdpi-v4\\abc_menu_hardkey_panel_holo_light.9.png"
     },
     {
-        "merged": "D:\\AndroidProject\\GooglePlay\\GooglePlayTeach\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_ic_cab_done_holo_dark.png",
-        "source": "D:\\AndroidProject\\GooglePlay\\android-support-v7-appcompat\\build\\intermediates\\bundles\\default\\res\\drawable-mdpi-v4\\abc_ic_cab_done_holo_dark.png"
-    },
-    {
         "merged": "D:\\AndroidProject\\GooglePlay\\GooglePlayTeach\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_ic_menu_share_holo_light.png",
         "source": "D:\\AndroidProject\\GooglePlay\\android-support-v7-appcompat\\build\\intermediates\\bundles\\default\\res\\drawable-mdpi-v4\\abc_ic_menu_share_holo_light.png"
     },
     {
-        "merged": "D:\\AndroidProject\\GooglePlay\\GooglePlayTeach\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_ab_bottom_transparent_dark_holo.9.png",
-        "source": "D:\\AndroidProject\\GooglePlay\\android-support-v7-appcompat\\build\\intermediates\\bundles\\default\\res\\drawable-mdpi-v4\\abc_ab_bottom_transparent_dark_holo.9.png"
+        "merged": "D:\\AndroidProject\\GooglePlay\\GooglePlayTeach\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_ic_cab_done_holo_dark.png",
+        "source": "D:\\AndroidProject\\GooglePlay\\android-support-v7-appcompat\\build\\intermediates\\bundles\\default\\res\\drawable-mdpi-v4\\abc_ic_cab_done_holo_dark.png"
     },
     {
         "merged": "D:\\AndroidProject\\GooglePlay\\GooglePlayTeach\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_spinner_ab_pressed_holo_dark.9.png",
         "source": "D:\\AndroidProject\\GooglePlay\\android-support-v7-appcompat\\build\\intermediates\\bundles\\default\\res\\drawable-mdpi-v4\\abc_spinner_ab_pressed_holo_dark.9.png"
+    },
+    {
+        "merged": "D:\\AndroidProject\\GooglePlay\\GooglePlayTeach\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_ab_bottom_transparent_dark_holo.9.png",
+        "source": "D:\\AndroidProject\\GooglePlay\\android-support-v7-appcompat\\build\\intermediates\\bundles\\default\\res\\drawable-mdpi-v4\\abc_ab_bottom_transparent_dark_holo.9.png"
     },
     {
         "merged": "D:\\AndroidProject\\GooglePlay\\GooglePlayTeach\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_ic_go_search_api_holo_light.png",

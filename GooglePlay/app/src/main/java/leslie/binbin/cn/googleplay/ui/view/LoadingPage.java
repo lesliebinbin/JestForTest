@@ -3,7 +3,9 @@ package leslie.binbin.cn.googleplay.ui.view;
 import android.content.Context;
 import android.util.AttributeSet;
 import android.view.View;
+import android.widget.Button;
 import android.widget.FrameLayout;
+import android.widget.Toast;
 
 import leslie.binbin.cn.googleplay.R;
 import leslie.binbin.cn.googleplay.utils.UIUtils;
@@ -56,7 +58,16 @@ public abstract class LoadingPage extends FrameLayout {
         //初始化加载失败的布局
         if(mErrorPage==null) {
             mErrorPage = UIUtils.inflate(R.layout.page_error);
+
+            //点击重试,事件
             addView(mErrorPage);
+            Button button = (Button) findViewById(R.id.btn_retry);
+            button.setOnClickListener((view)->{
+                //重新加载数据
+                Toast.makeText(UIUtils.getContext(), "被点击了", Toast.LENGTH_SHORT).show();
+                loadData();
+                    }
+            );
         }
 
         //初始化数据为空的布局
@@ -64,14 +75,10 @@ public abstract class LoadingPage extends FrameLayout {
             mEmptyPage = UIUtils.inflate(R.layout.page_empty);
             addView(mEmptyPage);
         }
-
-
-
         showRightPage();
-
-
-
     }
+
+
 
     //根据当前状态决定显示哪个布局
     private void showRightPage() {
