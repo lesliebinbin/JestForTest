@@ -1,0 +1,226 @@
+[
+    {
+        "merged": "D:\\AndroidProject\\GooglePlay\\GooglePlayTeach\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\photo_over.png",
+        "source": "D:\\AndroidProject\\GooglePlay\\GooglePlayTeach\\res\\drawable-hdpi\\photo_over.png"
+    },
+    {
+        "merged": "D:\\AndroidProject\\GooglePlay\\GooglePlayTeach\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_default.png",
+        "source": "D:\\AndroidProject\\GooglePlay\\GooglePlayTeach\\res\\drawable-hdpi\\ic_default.png"
+    },
+    {
+        "merged": "D:\\AndroidProject\\GooglePlay\\GooglePlayTeach\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\arrow_up.png",
+        "source": "D:\\AndroidProject\\GooglePlay\\GooglePlayTeach\\res\\drawable-hdpi\\arrow_up.png"
+    },
+    {
+        "merged": "D:\\AndroidProject\\GooglePlay\\GooglePlayTeach\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_drawer_shadow.9.png",
+        "source": "D:\\AndroidProject\\GooglePlay\\GooglePlayTeach\\res\\drawable-hdpi\\ic_drawer_shadow.9.png"
+    },
+    {
+        "merged": "D:\\AndroidProject\\GooglePlay\\GooglePlayTeach\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_download.png",
+        "source": "D:\\AndroidProject\\GooglePlay\\GooglePlayTeach\\res\\drawable-hdpi\\ic_download.png"
+    },
+    {
+        "merged": "D:\\AndroidProject\\GooglePlay\\GooglePlayTeach\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\progress_btn_pressed.9.png",
+        "source": "D:\\AndroidProject\\GooglePlay\\GooglePlayTeach\\res\\drawable-hdpi\\progress_btn_pressed.9.png"
+    },
+    {
+        "merged": "D:\\AndroidProject\\GooglePlay\\GooglePlayTeach\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\rating_small_empty.png",
+        "source": "D:\\AndroidProject\\GooglePlay\\GooglePlayTeach\\res\\drawable-hdpi\\rating_small_empty.png"
+    },
+    {
+        "merged": "D:\\AndroidProject\\GooglePlay\\GooglePlayTeach\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\list_item_action_pressed.9.png",
+        "source": "D:\\AndroidProject\\GooglePlay\\GooglePlayTeach\\res\\drawable-hdpi\\list_item_action_pressed.9.png"
+    },
+    {
+        "merged": "D:\\AndroidProject\\GooglePlay\\GooglePlayTeach\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_error_page.png",
+        "source": "D:\\AndroidProject\\GooglePlay\\GooglePlayTeach\\res\\drawable-hdpi\\ic_error_page.png"
+    },
+    {
+        "merged": "D:\\AndroidProject\\GooglePlay\\GooglePlayTeach\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\rating_small_half.png",
+        "source": "D:\\AndroidProject\\GooglePlay\\GooglePlayTeach\\res\\drawable-hdpi\\rating_small_half.png"
+    },
+    {
+        "merged": "D:\\AndroidProject\\GooglePlay\\GooglePlayTeach\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_launcher.png",
+        "source": "D:\\AndroidProject\\GooglePlay\\GooglePlayTeach\\res\\drawable-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\AndroidProject\\GooglePlay\\GooglePlayTeach\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_smart_update.png",
+        "source": "D:\\AndroidProject\\GooglePlay\\GooglePlayTeach\\res\\drawable-hdpi\\ic_smart_update.png"
+    },
+    {
+        "merged": "D:\\AndroidProject\\GooglePlay\\GooglePlayTeach\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_about.png",
+        "source": "D:\\AndroidProject\\GooglePlay\\GooglePlayTeach\\res\\drawable-hdpi\\ic_about.png"
+    },
+    {
+        "merged": "D:\\AndroidProject\\GooglePlay\\GooglePlayTeach\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_install.png",
+        "source": "D:\\AndroidProject\\GooglePlay\\GooglePlayTeach\\res\\drawable-hdpi\\ic_install.png"
+    },
+    {
+        "merged": "D:\\AndroidProject\\GooglePlay\\GooglePlayTeach\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\indicator_normal.png",
+        "source": "D:\\AndroidProject\\GooglePlay\\GooglePlayTeach\\res\\drawable-hdpi\\indicator_normal.png"
+    },
+    {
+        "merged": "D:\\AndroidProject\\GooglePlay\\GooglePlayTeach\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_home.png",
+        "source": "D:\\AndroidProject\\GooglePlay\\GooglePlayTeach\\res\\drawable-hdpi\\ic_home.png"
+    },
+    {
+        "merged": "D:\\AndroidProject\\GooglePlay\\GooglePlayTeach\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\spinner_small_outer.png",
+        "source": "D:\\AndroidProject\\GooglePlay\\GooglePlayTeach\\res\\drawable-hdpi\\spinner_small_outer.png"
+    },
+    {
+        "merged": "D:\\AndroidProject\\GooglePlay\\GooglePlayTeach\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_cancel.png",
+        "source": "D:\\AndroidProject\\GooglePlay\\GooglePlayTeach\\res\\drawable-hdpi\\ic_cancel.png"
+    },
+    {
+        "merged": "D:\\AndroidProject\\GooglePlay\\GooglePlayTeach\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\rating_small_full.png",
+        "source": "D:\\AndroidProject\\GooglePlay\\GooglePlayTeach\\res\\drawable-hdpi\\rating_small_full.png"
+    },
+    {
+        "merged": "D:\\AndroidProject\\GooglePlay\\GooglePlayTeach\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\progress_pressed.9.png",
+        "source": "D:\\AndroidProject\\GooglePlay\\GooglePlayTeach\\res\\drawable-hdpi\\progress_pressed.9.png"
+    },
+    {
+        "merged": "D:\\AndroidProject\\GooglePlay\\GooglePlayTeach\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\spinner_big_inner.png",
+        "source": "D:\\AndroidProject\\GooglePlay\\GooglePlayTeach\\res\\drawable-hdpi\\spinner_big_inner.png"
+    },
+    {
+        "merged": "D:\\AndroidProject\\GooglePlay\\GooglePlayTeach\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\indicator_selected.png",
+        "source": "D:\\AndroidProject\\GooglePlay\\GooglePlayTeach\\res\\drawable-hdpi\\indicator_selected.png"
+    },
+    {
+        "merged": "D:\\AndroidProject\\GooglePlay\\GooglePlayTeach\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\detail_btn_pressed.9.png",
+        "source": "D:\\AndroidProject\\GooglePlay\\GooglePlayTeach\\res\\drawable-hdpi\\detail_btn_pressed.9.png"
+    },
+    {
+        "merged": "D:\\AndroidProject\\GooglePlay\\GooglePlayTeach\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_update.png",
+        "source": "D:\\AndroidProject\\GooglePlay\\GooglePlayTeach\\res\\drawable-hdpi\\ic_update.png"
+    },
+    {
+        "merged": "D:\\AndroidProject\\GooglePlay\\GooglePlayTeach\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_feedback.png",
+        "source": "D:\\AndroidProject\\GooglePlay\\GooglePlayTeach\\res\\drawable-hdpi\\ic_feedback.png"
+    },
+    {
+        "merged": "D:\\AndroidProject\\GooglePlay\\GooglePlayTeach\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_uninstall.png",
+        "source": "D:\\AndroidProject\\GooglePlay\\GooglePlayTeach\\res\\drawable-hdpi\\ic_uninstall.png"
+    },
+    {
+        "merged": "D:\\AndroidProject\\GooglePlay\\GooglePlayTeach\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\spinner_small_inner.png",
+        "source": "D:\\AndroidProject\\GooglePlay\\GooglePlayTeach\\res\\drawable-hdpi\\spinner_small_inner.png"
+    },
+    {
+        "merged": "D:\\AndroidProject\\GooglePlay\\GooglePlayTeach\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\btn_normal.9.png",
+        "source": "D:\\AndroidProject\\GooglePlay\\GooglePlayTeach\\res\\drawable-hdpi\\btn_normal.9.png"
+    },
+    {
+        "merged": "D:\\AndroidProject\\GooglePlay\\GooglePlayTeach\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_drawer_am.png",
+        "source": "D:\\AndroidProject\\GooglePlay\\GooglePlayTeach\\res\\drawable-hdpi\\ic_drawer_am.png"
+    },
+    {
+        "merged": "D:\\AndroidProject\\GooglePlay\\GooglePlayTeach\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\progress_btn_normal.9.png",
+        "source": "D:\\AndroidProject\\GooglePlay\\GooglePlayTeach\\res\\drawable-hdpi\\progress_btn_normal.9.png"
+    },
+    {
+        "merged": "D:\\AndroidProject\\GooglePlay\\GooglePlayTeach\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\list_item_bg_normal.9.png",
+        "source": "D:\\AndroidProject\\GooglePlay\\GooglePlayTeach\\res\\drawable-hdpi\\list_item_bg_normal.9.png"
+    },
+    {
+        "merged": "D:\\AndroidProject\\GooglePlay\\GooglePlayTeach\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\spinner_big_outer.png",
+        "source": "D:\\AndroidProject\\GooglePlay\\GooglePlayTeach\\res\\drawable-hdpi\\spinner_big_outer.png"
+    },
+    {
+        "merged": "D:\\AndroidProject\\GooglePlay\\GooglePlayTeach\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\action_download.png",
+        "source": "D:\\AndroidProject\\GooglePlay\\GooglePlayTeach\\res\\drawable-hdpi\\action_download.png"
+    },
+    {
+        "merged": "D:\\AndroidProject\\GooglePlay\\GooglePlayTeach\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_setting.png",
+        "source": "D:\\AndroidProject\\GooglePlay\\GooglePlayTeach\\res\\drawable-hdpi\\ic_setting.png"
+    },
+    {
+        "merged": "D:\\AndroidProject\\GooglePlay\\GooglePlayTeach\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\nothing.9.png",
+        "source": "D:\\AndroidProject\\GooglePlay\\GooglePlayTeach\\res\\drawable-hdpi\\nothing.9.png"
+    },
+    {
+        "merged": "D:\\AndroidProject\\GooglePlay\\GooglePlayTeach\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_home_slide.png",
+        "source": "D:\\AndroidProject\\GooglePlay\\GooglePlayTeach\\res\\drawable-hdpi\\ic_home_slide.png"
+    },
+    {
+        "merged": "D:\\AndroidProject\\GooglePlay\\GooglePlayTeach\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\progress_normal.9.png",
+        "source": "D:\\AndroidProject\\GooglePlay\\GooglePlayTeach\\res\\drawable-hdpi\\progress_normal.9.png"
+    },
+    {
+        "merged": "D:\\AndroidProject\\GooglePlay\\GooglePlayTeach\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_theme.png",
+        "source": "D:\\AndroidProject\\GooglePlay\\GooglePlayTeach\\res\\drawable-hdpi\\ic_theme.png"
+    },
+    {
+        "merged": "D:\\AndroidProject\\GooglePlay\\GooglePlayTeach\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_resume.png",
+        "source": "D:\\AndroidProject\\GooglePlay\\GooglePlayTeach\\res\\drawable-hdpi\\ic_resume.png"
+    },
+    {
+        "merged": "D:\\AndroidProject\\GooglePlay\\GooglePlayTeach\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\list_item_bg_pressed.9.png",
+        "source": "D:\\AndroidProject\\GooglePlay\\GooglePlayTeach\\res\\drawable-hdpi\\list_item_bg_pressed.9.png"
+    },
+    {
+        "merged": "D:\\AndroidProject\\GooglePlay\\GooglePlayTeach\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\bg_photo.png",
+        "source": "D:\\AndroidProject\\GooglePlay\\GooglePlayTeach\\res\\drawable-hdpi\\bg_photo.png"
+    },
+    {
+        "merged": "D:\\AndroidProject\\GooglePlay\\GooglePlayTeach\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\progress_bg.9.png",
+        "source": "D:\\AndroidProject\\GooglePlay\\GooglePlayTeach\\res\\drawable-hdpi\\progress_bg.9.png"
+    },
+    {
+        "merged": "D:\\AndroidProject\\GooglePlay\\GooglePlayTeach\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_redownload.png",
+        "source": "D:\\AndroidProject\\GooglePlay\\GooglePlayTeach\\res\\drawable-hdpi\\ic_redownload.png"
+    },
+    {
+        "merged": "D:\\AndroidProject\\GooglePlay\\GooglePlayTeach\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\btn_pressed.9.png",
+        "source": "D:\\AndroidProject\\GooglePlay\\GooglePlayTeach\\res\\drawable-hdpi\\btn_pressed.9.png"
+    },
+    {
+        "merged": "D:\\AndroidProject\\GooglePlay\\GooglePlayTeach\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\list_divider.9.png",
+        "source": "D:\\AndroidProject\\GooglePlay\\GooglePlayTeach\\res\\drawable-hdpi\\list_divider.9.png"
+    },
+    {
+        "merged": "D:\\AndroidProject\\GooglePlay\\GooglePlayTeach\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_pause.png",
+        "source": "D:\\AndroidProject\\GooglePlay\\GooglePlayTeach\\res\\drawable-hdpi\\ic_pause.png"
+    },
+    {
+        "merged": "D:\\AndroidProject\\GooglePlay\\GooglePlayTeach\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\grid_item_bg_normal.9.png",
+        "source": "D:\\AndroidProject\\GooglePlay\\GooglePlayTeach\\res\\drawable-hdpi\\grid_item_bg_normal.9.png"
+    },
+    {
+        "merged": "D:\\AndroidProject\\GooglePlay\\GooglePlayTeach\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_exit.png",
+        "source": "D:\\AndroidProject\\GooglePlay\\GooglePlayTeach\\res\\drawable-hdpi\\ic_exit.png"
+    },
+    {
+        "merged": "D:\\AndroidProject\\GooglePlay\\GooglePlayTeach\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_empty_page.png",
+        "source": "D:\\AndroidProject\\GooglePlay\\GooglePlayTeach\\res\\drawable-hdpi\\ic_empty_page.png"
+    },
+    {
+        "merged": "D:\\AndroidProject\\GooglePlay\\GooglePlayTeach\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\grid_item_bg_pressed.9.png",
+        "source": "D:\\AndroidProject\\GooglePlay\\GooglePlayTeach\\res\\drawable-hdpi\\grid_item_bg_pressed.9.png"
+    },
+    {
+        "merged": "D:\\AndroidProject\\GooglePlay\\GooglePlayTeach\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_updates.png",
+        "source": "D:\\AndroidProject\\GooglePlay\\GooglePlayTeach\\res\\drawable-hdpi\\ic_updates.png"
+    },
+    {
+        "merged": "D:\\AndroidProject\\GooglePlay\\GooglePlayTeach\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\bg_tab.9.png",
+        "source": "D:\\AndroidProject\\GooglePlay\\GooglePlayTeach\\res\\drawable-hdpi\\bg_tab.9.png"
+    },
+    {
+        "merged": "D:\\AndroidProject\\GooglePlay\\GooglePlayTeach\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_scans.png",
+        "source": "D:\\AndroidProject\\GooglePlay\\GooglePlayTeach\\res\\drawable-hdpi\\ic_scans.png"
+    },
+    {
+        "merged": "D:\\AndroidProject\\GooglePlay\\GooglePlayTeach\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\detail_bottom_bg.9.png",
+        "source": "D:\\AndroidProject\\GooglePlay\\GooglePlayTeach\\res\\drawable-hdpi\\detail_bottom_bg.9.png"
+    },
+    {
+        "merged": "D:\\AndroidProject\\GooglePlay\\GooglePlayTeach\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\detail_btn_normal.9.png",
+        "source": "D:\\AndroidProject\\GooglePlay\\GooglePlayTeach\\res\\drawable-hdpi\\detail_btn_normal.9.png"
+    },
+    {
+        "merged": "D:\\AndroidProject\\GooglePlay\\GooglePlayTeach\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\arrow_down.png",
+        "source": "D:\\AndroidProject\\GooglePlay\\GooglePlayTeach\\res\\drawable-hdpi\\arrow_down.png"
+    }
+]
