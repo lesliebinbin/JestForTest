@@ -4,12 +4,12 @@
         "source": "D:\\AndroidProject\\GooglePlay\\GooglePlayTeach\\res\\drawable-hdpi\\photo_over.png"
     },
     {
-        "merged": "D:\\AndroidProject\\GooglePlay\\GooglePlayTeach\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\arrow_up.png",
-        "source": "D:\\AndroidProject\\GooglePlay\\GooglePlayTeach\\res\\drawable-hdpi\\arrow_up.png"
-    },
-    {
         "merged": "D:\\AndroidProject\\GooglePlay\\GooglePlayTeach\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_default.png",
         "source": "D:\\AndroidProject\\GooglePlay\\GooglePlayTeach\\res\\drawable-hdpi\\ic_default.png"
+    },
+    {
+        "merged": "D:\\AndroidProject\\GooglePlay\\GooglePlayTeach\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\arrow_up.png",
+        "source": "D:\\AndroidProject\\GooglePlay\\GooglePlayTeach\\res\\drawable-hdpi\\arrow_up.png"
     },
     {
         "merged": "D:\\AndroidProject\\GooglePlay\\GooglePlayTeach\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_drawer_shadow.9.png",

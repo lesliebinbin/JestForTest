@@ -256,12 +256,12 @@
         "source": "D:\\AndroidProject\\GooglePlay\\android-support-v7-appcompat\\build\\intermediates\\bundles\\debug\\res\\drawable-mdpi-v4\\abc_tab_selected_holo.9.png"
     },
     {
-        "merged": "D:\\AndroidProject\\GooglePlay\\android-support-v7-appcompat\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-mdpi-v4\\abc_list_pressed_holo_light.9.png",
-        "source": "D:\\AndroidProject\\GooglePlay\\android-support-v7-appcompat\\build\\intermediates\\bundles\\debug\\res\\drawable-mdpi-v4\\abc_list_pressed_holo_light.9.png"
-    },
-    {
         "merged": "D:\\AndroidProject\\GooglePlay\\android-support-v7-appcompat\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-mdpi-v4\\abc_spinner_ab_default_holo_light.9.png",
         "source": "D:\\AndroidProject\\GooglePlay\\android-support-v7-appcompat\\build\\intermediates\\bundles\\debug\\res\\drawable-mdpi-v4\\abc_spinner_ab_default_holo_light.9.png"
+    },
+    {
+        "merged": "D:\\AndroidProject\\GooglePlay\\android-support-v7-appcompat\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-mdpi-v4\\abc_list_pressed_holo_light.9.png",
+        "source": "D:\\AndroidProject\\GooglePlay\\android-support-v7-appcompat\\build\\intermediates\\bundles\\debug\\res\\drawable-mdpi-v4\\abc_list_pressed_holo_light.9.png"
     },
     {
         "merged": "D:\\AndroidProject\\GooglePlay\\android-support-v7-appcompat\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-mdpi-v4\\abc_list_focused_holo.9.png",

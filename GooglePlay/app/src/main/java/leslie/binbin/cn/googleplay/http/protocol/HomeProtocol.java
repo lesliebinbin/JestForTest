@@ -13,6 +13,9 @@ import leslie.binbin.cn.googleplay.domain.AppInfo;
  */
 
 public class HomeProtocol extends BaseProtocol<ArrayList<AppInfo>> {
+
+    private ArrayList<String> pictures;
+
     @Override
     public ArrayList<AppInfo> parseData(String result) {
         // Gson, JsonObject
@@ -41,7 +44,7 @@ public class HomeProtocol extends BaseProtocol<ArrayList<AppInfo>> {
 
             // 初始化轮播条的数据
             JSONArray ja1 = jo.getJSONArray("picture");
-            ArrayList<String> pictures = new ArrayList<String>();
+            pictures = new ArrayList<String>();
             for (int i = 0; i < ja1.length(); i++) {
                 String pic = ja1.getString(i);
                 pictures.add(pic);
@@ -64,5 +67,9 @@ public class HomeProtocol extends BaseProtocol<ArrayList<AppInfo>> {
     @Override
     public String getKey() {
         return "home";
+    }
+
+    public ArrayList<String> getPictureList(){
+        return pictures;
     }
 }

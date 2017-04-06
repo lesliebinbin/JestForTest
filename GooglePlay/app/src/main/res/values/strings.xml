@@ -6,7 +6,7 @@
     <string name="hello_world">Hello world!</string>
     <string name="drawer_open">Open navigation drawer</string>
     <string name="drawer_close">Close navigation drawer</string>
-    
+
     <string name="app_state_download">下载</string>
     <string name="app_state_paused">暂停</string>
     <string name="app_state_error">失败</string>
