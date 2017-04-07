@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="demo.spring.leslie.cn.myapplication.MainActivity">
+
+    <com.google.vr.sdk.widgets.video.VrVideoView
+        android:id="@+id/vr_vedio_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        ></com.google.vr.sdk.widgets.video.VrVideoView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <SeekBar
+            android:layout_width="match_parent"
+            android:id="@+id/seekbar"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/time"
+            android:layout_width="wrap_content"
+            android:background="#AEAEAE"
+            android:textColor="#FFFFFF"
+            android:textSize="22sp"
+            android:text="100:200"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+</RelativeLayout>
