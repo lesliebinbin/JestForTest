@@ -5,10 +5,11 @@
       <GradleProjectSettings>
         <option name="distributionType" value="LOCAL" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="gradleHome" value="F:\Program Files\Android\Android Studio\gradle\gradle-3.3" />
+        <option name="gradleHome" value="$APPLICATION_HOME_DIR$/gradle/gradle-3.4.1" />
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/ActionBarDemo" />
             <option value="$PROJECT_DIR$/GooglePlayTeach" />
             <option value="$PROJECT_DIR$/TestForAnnotation" />
             <option value="$PROJECT_DIR$/WebServer" />

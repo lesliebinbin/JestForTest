@@ -14,8 +14,8 @@ import java.util.ArrayList;
 import java.util.Random;
 
 import leslie.binbin.cn.googleplay.http.protocol.HotProtocol;
-import leslie.binbin.cn.googleplay.ui.view.FlowLayout;
 import leslie.binbin.cn.googleplay.ui.view.LoadingPage;
+import leslie.binbin.cn.googleplay.ui.view.MyFlowLayout;
 import leslie.binbin.cn.googleplay.utils.DrawableUtils;
 import leslie.binbin.cn.googleplay.utils.UIUtils;
 
@@ -29,15 +29,15 @@ public class HotFragment extends BaseFragment {
         //支持上下滑
         ScrollView scrollView = new ScrollView(UIUtils.getContext());
 
-        FlowLayout flowLayout = new FlowLayout(UIUtils.getContext());
+        MyFlowLayout flowLayout = new MyFlowLayout(UIUtils.getContext());
 
         int padding = UIUtils.dip2px(10);
 
         scrollView.addView(flowLayout);
         flowLayout.setPadding(padding,padding,padding,padding);//设置内边距
 
-        flowLayout.setHorizontalSpacing(UIUtils.dip2px(6));//水平间距
-        flowLayout.setVerticalSpacing(UIUtils.dip2px(8));//垂直间距
+        //flowLayout.setHorizontalSpacing(UIUtils.dip2px(6));//水平间距
+        //flowLayout.setVerticalSpacing(UIUtils.dip2px(8));//垂直间距
 
         for(int i = 0;i<mData.size();i++){
             TextView view = new TextView(UIUtils.getContext());

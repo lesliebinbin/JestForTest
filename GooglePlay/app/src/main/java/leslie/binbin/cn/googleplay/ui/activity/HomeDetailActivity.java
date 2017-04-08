@@ -1,13 +1,18 @@
 package leslie.binbin.cn.googleplay.ui.activity;
 
 import android.os.Bundle;
+import android.support.v7.app.ActionBar;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.FrameLayout;
+import android.widget.HorizontalScrollView;
 
 import leslie.binbin.cn.googleplay.R;
 import leslie.binbin.cn.googleplay.domain.AppInfo;
 import leslie.binbin.cn.googleplay.http.protocol.HomeDetailProtocal;
 import leslie.binbin.cn.googleplay.ui.holder.DetailAppInfoHolder;
+import leslie.binbin.cn.googleplay.ui.holder.DetailDesHolder;
+import leslie.binbin.cn.googleplay.ui.holder.DetailPicsHolder;
 import leslie.binbin.cn.googleplay.ui.holder.DetailSafeHolder;
 import leslie.binbin.cn.googleplay.ui.view.LoadingPage;
 import leslie.binbin.cn.googleplay.utils.UIUtils;
@@ -39,9 +44,22 @@ public class HomeDetailActivity extends BaseActivity {
 
         //开始加载网络数据
         mLoadingPage.loadData();
+
+        initActionBar();
     }
 
-    public View onCreateSuccessView(){
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        switch (item.getItemId()){
+            case android.R.id.home:
+                finish();
+                break;
+        }
+
+        return super.onOptionsItemSelected(item);
+    }
+
+    public View onCreateSuccessView() {
 
         //初始化成功布局
 
@@ -66,6 +84,18 @@ public class HomeDetailActivity extends BaseActivity {
 
         safeHolder.setData(mData);
 
+        //初始化截图模块
+        HorizontalScrollView hsvPic = (HorizontalScrollView) view.findViewById(R.id.hsv_details_pics);
+
+        DetailPicsHolder picsHolder = new DetailPicsHolder();
+        hsvPic.addView(picsHolder.getRootView());
+        picsHolder.setData(mData);
+
+        //初始化描述模块
+        FrameLayout flDetailDes = (FrameLayout) view.findViewById(R.id.fl_detail_des);
+        DetailDesHolder desHolder = new DetailDesHolder();
+        flDetailDes.addView(desHolder.getRootView());
+        desHolder.setData(mData);
 
         return view;
     }
@@ -77,9 +107,15 @@ public class HomeDetailActivity extends BaseActivity {
 
         HomeDetailProtocal protocol = new HomeDetailProtocal(packageName);
         mData = protocol.getData(0);
-        if(mData !=null){
+        if (mData != null) {
             return LoadingPage.ResultState.STATE_SUCCESS;
         }
         return LoadingPage.ResultState.STATE_ERROR;
+    }
+
+    private void initActionBar(){
+        ActionBar actionBar = getSupportActionBar();
+        //actionBar.setHomeButtonEnabled(true);//设置home处可以点击
+        actionBar.setDisplayHomeAsUpEnabled(true);//显示左上角返回键
     }
 }

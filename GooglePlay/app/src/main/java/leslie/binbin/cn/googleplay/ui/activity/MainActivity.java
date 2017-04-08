@@ -1,10 +1,14 @@
 package leslie.binbin.cn.googleplay.ui.activity;
 
 import android.os.Bundle;
+import android.support.v4.app.ActionBarDrawerToggle;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
 import android.support.v4.view.ViewPager;
+import android.support.v4.widget.DrawerLayout;
+import android.support.v7.app.ActionBar;
+import android.view.MenuItem;
 
 import org.androidannotations.annotations.AfterViews;
 import org.androidannotations.annotations.EActivity;
@@ -27,6 +31,7 @@ public class MainActivity extends BaseActivity {
     @ViewById(R.id.pager_tab)
     PagerTab mPagerTab;
     private MyAdapter mAdapter;
+    private ActionBarDrawerToggle mToggle;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -62,8 +67,20 @@ public class MainActivity extends BaseActivity {
 
             }
         });
+        initActionBar();
     }
 
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        switch (item.getItemId()){
+            case android.R.id.home:
+                //切换抽屉
+                mToggle.onOptionsItemSelected(item);
+                break;
+        }
+        return super.onOptionsItemSelected(item);
+    }
 
     class MyAdapter extends FragmentPagerAdapter{
 
@@ -95,5 +112,28 @@ public class MainActivity extends BaseActivity {
         public int getCount() {
             return mTabNames.length;
         }
+    }
+
+    //初始化ActionBar
+    private void initActionBar(){
+        ActionBar actionBar = getSupportActionBar();
+
+        actionBar.setHomeButtonEnabled(true);//设置home处可以点击
+        actionBar.setDisplayHomeAsUpEnabled(true);//显示左上角返回键
+        //当和侧边栏结合时展示三个杠图片
+
+        DrawerLayout drawerLayout = (DrawerLayout) findViewById(R.id.drawer);
+
+        //抽屉的开关
+        //参2:DrawerLayout对象,参3:左上角图片
+        mToggle = new ActionBarDrawerToggle(this,
+                drawerLayout,
+                R.drawable.ic_drawer_am,
+                R.string.drawer_open,
+                R.string.drawer_close);
+                //参4:打开侧边栏描述
+                //参5:关闭侧边栏描述
+
+        mToggle.syncState();//同步状态,将DrawLayout和开关关联在一起
     }
 }
