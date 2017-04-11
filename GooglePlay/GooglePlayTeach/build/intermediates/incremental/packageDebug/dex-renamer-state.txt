@@ -1,0 +1,7 @@
+#Tue Apr 11 20:43:28 CST 2017
+base.0=D\:\\AndroidProject\\GooglePlay\\GooglePlayTeach\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_2312172a742bd647d8489d8c84f25b19a73a7497
+renamed.1=classes2.dex
+renamed.0=classes.dex
+file.1=D\:\\AndroidProject\\GooglePlay\\GooglePlayTeach\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_a0488b091687fd04e03e710e9359b2db9e402a86\\classes.dex
+base.1=D\:\\AndroidProject\\GooglePlay\\GooglePlayTeach\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_a0488b091687fd04e03e710e9359b2db9e402a86
+file.0=D\:\\AndroidProject\\GooglePlay\\GooglePlayTeach\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_2312172a742bd647d8489d8c84f25b19a73a7497\\classes.dex

@@ -27,6 +27,7 @@ public class LoadingPage extends FrameLayout {
     @Background
     public void testForAnnotation(){
         System.out.println("当前线程是:"+Thread.currentThread().getName());
+
     }
 
 }

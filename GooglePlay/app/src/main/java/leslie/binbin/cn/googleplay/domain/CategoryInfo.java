@@ -14,4 +14,6 @@ public class CategoryInfo {
 
     public String title;//分类标题
     public boolean isTitle;//标记是否是标题
+
+
 }

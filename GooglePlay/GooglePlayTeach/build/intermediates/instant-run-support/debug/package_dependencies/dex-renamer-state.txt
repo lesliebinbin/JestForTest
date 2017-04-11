@@ -1,0 +1,10 @@
+#Tue Apr 11 20:43:26 CST 2017
+renamed.2=classes.dex
+renamed.1=classes3.dex
+renamed.0=classes2.dex
+base.2=D\:\\AndroidProject\\GooglePlay\\GooglePlayTeach\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\2\\nineoldandroids-2.4.0_1a85df74915af5eb28e3d6c247fce201730cef33
+base.1=D\:\\AndroidProject\\GooglePlay\\GooglePlayTeach\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\8\\android-support-v7-appcompat_a706edf2f20b5fb94ed06d890c9a1a1184badad8
+base.0=D\:\\AndroidProject\\GooglePlay\\GooglePlayTeach\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\8\\android-support-v4_d541a724ad537cbaf50e65e8882d4c9ac92c2032
+file.2=D\:\\AndroidProject\\GooglePlay\\GooglePlayTeach\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\2\\nineoldandroids-2.4.0_1a85df74915af5eb28e3d6c247fce201730cef33\\classes.dex
+file.1=D\:\\AndroidProject\\GooglePlay\\GooglePlayTeach\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\8\\android-support-v7-appcompat_a706edf2f20b5fb94ed06d890c9a1a1184badad8\\classes.dex
+file.0=D\:\\AndroidProject\\GooglePlay\\GooglePlayTeach\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\8\\android-support-v4_d541a724ad537cbaf50e65e8882d4c9ac92c2032\\classes.dex

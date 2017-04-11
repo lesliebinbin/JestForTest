@@ -7,6 +7,7 @@ import android.widget.Toast;
 
 import java.util.ArrayList;
 
+import leslie.binbin.cn.googleplay.manager.ThreadManager;
 import leslie.binbin.cn.googleplay.ui.holder.BaseHolder;
 import leslie.binbin.cn.googleplay.ui.holder.MoreHolder;
 import leslie.binbin.cn.googleplay.utils.UIUtils;
@@ -105,35 +106,30 @@ public abstract class MyBaseAdapter<T> extends BaseAdapter {
     public void loadMore(final MoreHolder holder) {
         if (!isLoadMore) {
             isLoadMore = true;
-            new Thread() {
-                @Override
-                public void run() {
-                    final ArrayList<T> moreData = onLoadMore();
-                    UIUtils.runOnUIThread(new Runnable() {
-                        @Override
-                        public void run() {
-                            if (moreData != null) {
-                                if (moreData.size() < 20) {
-                                    holder.setData(MoreHolder.STATE_MORE_NONE);
-                                    Toast.makeText(UIUtils.getContext(), "没有更多数据了", Toast.LENGTH_SHORT)
-                                            .show();
-                                } else {
-                                    //还有更多数据
-                                    holder.setData(MoreHolder.STATE_MORE_MORE);
-                                }
 
-                                //将更多数据追加到集合中
-                                mData.addAll(moreData);
-                                //刷新页面
-                                MyBaseAdapter.this.notifyDataSetChanged();
-                            } else {
-                                holder.setData(MoreHolder.STATE_MORE_ERROR);
-                            }
-                            isLoadMore = false;
+            ThreadManager.getThreadPool().execute(()->{
+                final ArrayList<T> moreData = onLoadMore();
+                UIUtils.runOnUIThread(() -> {
+                    if (moreData != null) {
+                        if (moreData.size() < 20) {
+                            holder.setData(MoreHolder.STATE_MORE_NONE);
+                            Toast.makeText(UIUtils.getContext(), "没有更多数据了", Toast.LENGTH_SHORT)
+                                    .show();
+                        } else {
+                            //还有更多数据
+                            holder.setData(MoreHolder.STATE_MORE_MORE);
                         }
-                    });
-                }
-            }.start();
+
+                        //将更多数据追加到集合中
+                        mData.addAll(moreData);
+                        //刷新页面
+                        MyBaseAdapter.this.notifyDataSetChanged();
+                    } else {
+                        holder.setData(MoreHolder.STATE_MORE_ERROR);
+                    }
+                    isLoadMore = false;
+                });
+            });
         }
     }
     //加载更多数据,必须由子类实现

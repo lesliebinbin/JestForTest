@@ -8,16 +8,17 @@ import android.widget.FrameLayout;
 import android.widget.Toast;
 
 import leslie.binbin.cn.googleplay.R;
+import leslie.binbin.cn.googleplay.manager.ThreadManager;
 import leslie.binbin.cn.googleplay.utils.UIUtils;
 
 /**
  * Created by pc on 2017/4/2.
  * 根据当前状态显示当前不同页面的自定义控件
- *-未加载
- *-加载中
- *  -加载失败
- *  -数据为空
- *  -加载成功
+ * -未加载
+ * -加载中
+ * -加载失败
+ * -数据为空
+ * -加载成功
  */
 public abstract class LoadingPage extends FrameLayout {
 
@@ -50,28 +51,28 @@ public abstract class LoadingPage extends FrameLayout {
 
     private void initView() {
         //初始化加载中的布局
-        if(mLoadingPage==null){
+        if (mLoadingPage == null) {
             mLoadingPage = UIUtils.inflate(R.layout.page_loading);
             addView(mLoadingPage);//将加载中的布局添加给帧布局
         }
 
         //初始化加载失败的布局
-        if(mErrorPage==null) {
+        if (mErrorPage == null) {
             mErrorPage = UIUtils.inflate(R.layout.page_error);
 
             //点击重试,事件
             addView(mErrorPage);
             Button button = (Button) findViewById(R.id.btn_retry);
-            button.setOnClickListener((view)->{
-                //重新加载数据
-                Toast.makeText(UIUtils.getContext(), "被点击了", Toast.LENGTH_SHORT).show();
-                loadData();
+            button.setOnClickListener((view) -> {
+                        //重新加载数据
+                        Toast.makeText(UIUtils.getContext(), "被点击了", Toast.LENGTH_SHORT).show();
+                        loadData();
                     }
             );
         }
 
         //初始化数据为空的布局
-        if(mEmptyPage==null) {
+        if (mEmptyPage == null) {
             mEmptyPage = UIUtils.inflate(R.layout.page_empty);
             addView(mEmptyPage);
         }
@@ -79,48 +80,44 @@ public abstract class LoadingPage extends FrameLayout {
     }
 
 
-
     //根据当前状态决定显示哪个布局
     private void showRightPage() {
-        mLoadingPage.setVisibility(myCurrentState==STATE_LOAD_UNDO||myCurrentState==STATE_LOAD_LOADING?View.VISIBLE:View.GONE);
-        mErrorPage.setVisibility(myCurrentState==STATE_LOAD_ERROR?View.VISIBLE:View.GONE);
-        mEmptyPage.setVisibility(myCurrentState==STATE_LOAD_EMPTY?View.VISIBLE:View.GONE);
+        mLoadingPage.setVisibility(myCurrentState == STATE_LOAD_UNDO || myCurrentState == STATE_LOAD_LOADING ? View.VISIBLE : View.GONE);
+        mErrorPage.setVisibility(myCurrentState == STATE_LOAD_ERROR ? View.VISIBLE : View.GONE);
+        mEmptyPage.setVisibility(myCurrentState == STATE_LOAD_EMPTY ? View.VISIBLE : View.GONE);
         //当成功布局为空,并且当前状态为空,才初始化成功的布局
-        if(mSuccessPage==null&&myCurrentState==STATE_LOAD_SUCCESS) {
+        if (mSuccessPage == null && myCurrentState == STATE_LOAD_SUCCESS) {
             mSuccessPage = onCreateSuccessView();
 
-            if(mSuccessPage!=null){
+            if (mSuccessPage != null) {
                 addView(mSuccessPage);
             }
         }
 
-        if(mSuccessPage!=null){
-            mSuccessPage.setVisibility(myCurrentState==STATE_LOAD_SUCCESS?View.VISIBLE:View.GONE);
+        if (mSuccessPage != null) {
+            mSuccessPage.setVisibility(myCurrentState == STATE_LOAD_SUCCESS ? View.VISIBLE : View.GONE);
         }
     }
 
     //开始加载数据
-    public void loadData(){
+    public void loadData() {
 
-        new Thread(new Runnable() {
-            @Override
-            public void run() {
-                if(myCurrentState!=STATE_LOAD_LOADING){//如果当前没有加载就开始加载数据
-                    myCurrentState=STATE_LOAD_LOADING;
-                    final ResultState resultState = onLoad();
-                    //根据最新的状态来刷新页面
-                    UIUtils.runOnUIThread(new Runnable() {
-                        @Override
-                        public void run() {
-                            if(resultState!=null) {
-                                myCurrentState = resultState.getState();//加载结束后,更新网络状态
-                                showRightPage();
-                            }
+        ThreadManager.getThreadPool().execute(() -> {
+            if (myCurrentState != STATE_LOAD_LOADING) {//如果当前没有加载就开始加载数据
+                myCurrentState = STATE_LOAD_LOADING;
+                final ResultState resultState = onLoad();
+                //根据最新的状态来刷新页面
+                UIUtils.runOnUIThread(new Runnable() {
+                    @Override
+                    public void run() {
+                        if (resultState != null) {
+                            myCurrentState = resultState.getState();//加载结束后,更新网络状态
+                            showRightPage();
                         }
-                    });
-                }
+                    }
+                });
             }
-        }).start();
+        });
 
 
     }
@@ -133,18 +130,18 @@ public abstract class LoadingPage extends FrameLayout {
     public abstract ResultState onLoad();
 
 
-    public enum ResultState{
+    public enum ResultState {
         STATE_SUCCESS(STATE_LOAD_SUCCESS),
         STATE_EMPTY(STATE_LOAD_EMPTY),
         STATE_ERROR(STATE_LOAD_ERROR);
 
         private int state;
 
-        private ResultState(int state){
+        private ResultState(int state) {
             this.state = state;
         }
 
-        public int getState(){
+        public int getState() {
             return state;
         }
     }

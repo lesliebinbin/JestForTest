@@ -12,6 +12,7 @@ import leslie.binbin.cn.googleplay.domain.AppInfo;
 import leslie.binbin.cn.googleplay.http.protocol.HomeDetailProtocal;
 import leslie.binbin.cn.googleplay.ui.holder.DetailAppInfoHolder;
 import leslie.binbin.cn.googleplay.ui.holder.DetailDesHolder;
+import leslie.binbin.cn.googleplay.ui.holder.DetailDownloadHolder;
 import leslie.binbin.cn.googleplay.ui.holder.DetailPicsHolder;
 import leslie.binbin.cn.googleplay.ui.holder.DetailSafeHolder;
 import leslie.binbin.cn.googleplay.ui.view.LoadingPage;
@@ -50,7 +51,7 @@ public class HomeDetailActivity extends BaseActivity {
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
-        switch (item.getItemId()){
+        switch (item.getItemId()) {
             case android.R.id.home:
                 finish();
                 break;
@@ -97,6 +98,13 @@ public class HomeDetailActivity extends BaseActivity {
         flDetailDes.addView(desHolder.getRootView());
         desHolder.setData(mData);
 
+        //初始化下载布局
+        FrameLayout flDetailDownload =
+                (FrameLayout) view.findViewById(R.id.fl_detail_download);
+        DetailDownloadHolder downloadHolder = new DetailDownloadHolder();
+        flDetailDownload.addView(downloadHolder.getRootView());
+        downloadHolder.setData(mData);
+
         return view;
     }
 
@@ -113,7 +121,7 @@ public class HomeDetailActivity extends BaseActivity {
         return LoadingPage.ResultState.STATE_ERROR;
     }
 
-    private void initActionBar(){
+    private void initActionBar() {
         ActionBar actionBar = getSupportActionBar();
         //actionBar.setHomeButtonEnabled(true);//设置home处可以点击
         actionBar.setDisplayHomeAsUpEnabled(true);//显示左上角返回键
