@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Js调用Android</title>
+	<script src="jquery-1.11.0.min.js"></script>
+	<script type="text/javascript">
+			$(function(){
+				$("[value='Toast提示']").click(function(){
+					myObj.showToast('曹神前来日狗~');
+				});
+
+				$("[value='列表对话框']").click(function(){
+					myObj.showDialog();
+				});
+
+			});
+		</script>
+</head>
+
+<body>
+<input type="button" value="Toast提示" id="button1" />
+<input type="button" value="列表对话框" id="button2"/>
+</body>
+</html>

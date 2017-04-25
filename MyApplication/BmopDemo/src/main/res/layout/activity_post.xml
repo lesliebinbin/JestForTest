@@ -1,0 +1,69 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ShowActivity" >
+
+    <LinearLayout 
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+         <ImageView 
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/iv_back"
+            android:src="@drawable/ic_back"
+            />
+        <TextView 
+            android:layout_marginLeft="10dp"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:text="发布帖子"
+            android:textSize="15sp"
+            android:gravity="left|center_vertical"
+            />
+        
+    </LinearLayout>
+
+    <EditText 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/et_title"
+        android:hint="帖子标题"
+        android:textSize="15sp"
+        />
+    
+     <EditText 
+        android:gravity="top|left"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:maxLines="6"
+        android:id="@+id/et_content"
+        android:hint="帖子正文......."
+        android:textSize="15sp"
+        />
+     
+     <Button 
+         android:layout_width="match_parent"
+         android:background="@android:color/holo_blue_light"
+         android:layout_height="wrap_content"
+         android:id="@+id/btn_post"
+         android:text="发帖"
+         android:textSize="20sp"
+         android:layout_gravity="center_horizontal"
+         />
+     
+     <Button 
+         android:layout_width="match_parent"
+         android:background="@android:color/holo_blue_light"
+         android:layout_height="wrap_content"
+         android:id="@+id/btn_update"
+         android:text="更新帖子"
+         android:textSize="20sp"
+         android:layout_gravity="center_horizontal"
+         />
+    
+</LinearLayout>

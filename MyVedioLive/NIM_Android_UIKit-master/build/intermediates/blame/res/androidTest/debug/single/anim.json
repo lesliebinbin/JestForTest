@@ -1,0 +1,66 @@
+[
+    {
+        "merged": "D:\\Android Project\\MyVedioLive\\NIM_Android_UIKit-master\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\abc_fade_in.xml",
+        "source": "C:\\Users\\pc\\.android\\build-cache\\42a171ec54525aecdaf5f0d0a28b04b97df923db\\output\\res\\anim\\abc_fade_in.xml"
+    },
+    {
+        "merged": "D:\\Android Project\\MyVedioLive\\NIM_Android_UIKit-master\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\abc_shrink_fade_out_from_bottom.xml",
+        "source": "C:\\Users\\pc\\.android\\build-cache\\42a171ec54525aecdaf5f0d0a28b04b97df923db\\output\\res\\anim\\abc_shrink_fade_out_from_bottom.xml"
+    },
+    {
+        "merged": "D:\\Android Project\\MyVedioLive\\NIM_Android_UIKit-master\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\abc_slide_in_top.xml",
+        "source": "C:\\Users\\pc\\.android\\build-cache\\42a171ec54525aecdaf5f0d0a28b04b97df923db\\output\\res\\anim\\abc_slide_in_top.xml"
+    },
+    {
+        "merged": "D:\\Android Project\\MyVedioLive\\NIM_Android_UIKit-master\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\design_bottom_sheet_slide_out.xml",
+        "source": "C:\\Users\\pc\\.android\\build-cache\\322a01aacdb65b420398ca70273ab2d98eb27374\\output\\res\\anim\\design_bottom_sheet_slide_out.xml"
+    },
+    {
+        "merged": "D:\\Android Project\\MyVedioLive\\NIM_Android_UIKit-master\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\design_snackbar_in.xml",
+        "source": "C:\\Users\\pc\\.android\\build-cache\\322a01aacdb65b420398ca70273ab2d98eb27374\\output\\res\\anim\\design_snackbar_in.xml"
+    },
+    {
+        "merged": "D:\\Android Project\\MyVedioLive\\NIM_Android_UIKit-master\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\abc_fade_out.xml",
+        "source": "C:\\Users\\pc\\.android\\build-cache\\42a171ec54525aecdaf5f0d0a28b04b97df923db\\output\\res\\anim\\abc_fade_out.xml"
+    },
+    {
+        "merged": "D:\\Android Project\\MyVedioLive\\NIM_Android_UIKit-master\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\design_fab_in.xml",
+        "source": "C:\\Users\\pc\\.android\\build-cache\\322a01aacdb65b420398ca70273ab2d98eb27374\\output\\res\\anim\\design_fab_in.xml"
+    },
+    {
+        "merged": "D:\\Android Project\\MyVedioLive\\NIM_Android_UIKit-master\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\abc_slide_out_top.xml",
+        "source": "C:\\Users\\pc\\.android\\build-cache\\42a171ec54525aecdaf5f0d0a28b04b97df923db\\output\\res\\anim\\abc_slide_out_top.xml"
+    },
+    {
+        "merged": "D:\\Android Project\\MyVedioLive\\NIM_Android_UIKit-master\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\design_fab_out.xml",
+        "source": "C:\\Users\\pc\\.android\\build-cache\\322a01aacdb65b420398ca70273ab2d98eb27374\\output\\res\\anim\\design_fab_out.xml"
+    },
+    {
+        "merged": "D:\\Android Project\\MyVedioLive\\NIM_Android_UIKit-master\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\design_snackbar_out.xml",
+        "source": "C:\\Users\\pc\\.android\\build-cache\\322a01aacdb65b420398ca70273ab2d98eb27374\\output\\res\\anim\\design_snackbar_out.xml"
+    },
+    {
+        "merged": "D:\\Android Project\\MyVedioLive\\NIM_Android_UIKit-master\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\design_bottom_sheet_slide_in.xml",
+        "source": "C:\\Users\\pc\\.android\\build-cache\\322a01aacdb65b420398ca70273ab2d98eb27374\\output\\res\\anim\\design_bottom_sheet_slide_in.xml"
+    },
+    {
+        "merged": "D:\\Android Project\\MyVedioLive\\NIM_Android_UIKit-master\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\abc_slide_out_bottom.xml",
+        "source": "C:\\Users\\pc\\.android\\build-cache\\42a171ec54525aecdaf5f0d0a28b04b97df923db\\output\\res\\anim\\abc_slide_out_bottom.xml"
+    },
+    {
+        "merged": "D:\\Android Project\\MyVedioLive\\NIM_Android_UIKit-master\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\abc_popup_enter.xml",
+        "source": "C:\\Users\\pc\\.android\\build-cache\\42a171ec54525aecdaf5f0d0a28b04b97df923db\\output\\res\\anim\\abc_popup_enter.xml"
+    },
+    {
+        "merged": "D:\\Android Project\\MyVedioLive\\NIM_Android_UIKit-master\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\abc_slide_in_bottom.xml",
+        "source": "C:\\Users\\pc\\.android\\build-cache\\42a171ec54525aecdaf5f0d0a28b04b97df923db\\output\\res\\anim\\abc_slide_in_bottom.xml"
+    },
+    {
+        "merged": "D:\\Android Project\\MyVedioLive\\NIM_Android_UIKit-master\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\abc_grow_fade_in_from_bottom.xml",
+        "source": "C:\\Users\\pc\\.android\\build-cache\\42a171ec54525aecdaf5f0d0a28b04b97df923db\\output\\res\\anim\\abc_grow_fade_in_from_bottom.xml"
+    },
+    {
+        "merged": "D:\\Android Project\\MyVedioLive\\NIM_Android_UIKit-master\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\abc_popup_exit.xml",
+        "source": "C:\\Users\\pc\\.android\\build-cache\\42a171ec54525aecdaf5f0d0a28b04b97df923db\\output\\res\\anim\\abc_popup_exit.xml"
+    }
+]

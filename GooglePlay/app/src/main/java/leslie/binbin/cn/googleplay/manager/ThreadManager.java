@@ -63,7 +63,7 @@ public class ThreadManager {
                         new LinkedBlockingDeque<>(),
                         Executors.defaultThreadFactory(),
                         new ThreadPoolExecutor.AbortPolicy()
-                        //参1 核心线程数
+                        //参1 核心线程数cd
                         //参2 最大线程数
                         //参3 线程休眠时间
                         //参4 时间单位

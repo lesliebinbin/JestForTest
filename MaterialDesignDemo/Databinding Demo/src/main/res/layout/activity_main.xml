@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    >
+
+    <data>
+
+        <variable
+            name="employee"
+            type="binbin.leslie.cn.myapplication.Employee">
+        </variable>
+
+        <variable
+            name="presenter"
+            type="binbin.leslie.cn.myapplication.MainActivity.Presenter"/>
+    </data>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+        <ViewStub
+            android:layout="@layout/viewstub"
+            android:id="@+id/view_stub"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="输入First Name"
+            android:onTextChanged="@{presenter::onTextChanged}"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="输入First Name"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="@{presenter.onClick}"
+            android:text="@{employee.firstName  }"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="@{()->presenter.onClickListenerBind(employee)}"
+            android:text="@{employee.lastName+@string/app_name}"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@{String.valueOf(3>5?2:3)}"
+            />
+
+        <include
+            bind:employee="@{employee}"
+            layout="@layout/layout_demo"/>
+
+    </LinearLayout>
+</layout>

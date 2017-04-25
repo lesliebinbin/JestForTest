@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="firstdemo.as.tedu.cn.myapplication.TestActivity">
+
+    <firstdemo.as.tedu.cn.myapplication.DragLayout
+        android:layout_width="match_parent"
+        android:paddingTop="10dp"
+        android:paddingLeft="10dp"
+        android:layout_height="match_parent">
+        <TextView
+            android:layout_width="@dimen/width"
+            android:layout_height="@dimen/width"
+            android:background="#ffff0000"/>
+
+        <TextView
+            android:layout_width="@dimen/width"
+            android:layout_height="@dimen/width"
+            android:background="#0000ff"/>
+    </firstdemo.as.tedu.cn.myapplication.DragLayout>
+</LinearLayout>
