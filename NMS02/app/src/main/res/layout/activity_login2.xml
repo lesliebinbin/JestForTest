@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/bg"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context="com.lemon.c.nms.ui.LoginActivity">
+
+    <!--<include layout="@layout/custom_toolbar"/>-->
+
+    <!--<ImageView-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_gravity="center_horizontal"-->
+    <!--android:layout_marginTop="50dp"-->
+    <!--android:src="@drawable/logo_big"/>-->
+
+
+    <LinearLayout
+        android:layout_width="332dp"
+        android:layout_height="330dp"
+        android:layout_marginTop="110dp"
+        android:background="@drawable/login_fra_bg"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:gravity="center"
+            android:text="天威综合网管系统"
+            android:textColor="#39424c"
+            android:textSize="19sp" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="20dp"
+            android:text="@string/username"
+            android:textColor="#39424c"
+            android:textSize="13sp" />
+
+
+        <EditText
+            android:id="@+id/username"
+            android:layout_width="232dp"
+            android:layout_height="34dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginTop="7dp"
+            android:background="@drawable/login_input_bg_selector"
+            android:drawableLeft="@drawable/login_icon_user_selector"
+            android:hint="@string/admin"
+            android:inputType="textEmailAddress" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="20dp"
+            android:text="@string/password"
+            android:textColor="#39424c"
+            android:textSize="13sp" />
+
+
+        <EditText
+            android:id="@+id/password"
+            android:layout_width="232dp"
+            android:layout_height="34dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginTop="7dp"
+            android:background="@drawable/login_input_bg_selector"
+            android:drawableLeft="@drawable/login_icon_lock_selector"
+            android:inputType="textPassword" />
+
+        <Button
+            android:id="@+id/btn_login"
+            android:layout_width="116dp"
+            android:layout_height="35dp"
+            android:layout_marginLeft="108dp"
+            android:layout_marginTop="36dp"
+            android:background="@drawable/login_btn_bg_selector"
+            android:text="登录"
+            android:textColor="@color/white" />
+
+    </LinearLayout>
+</LinearLayout>

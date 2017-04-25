@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <com.jenzz.materialpreference.PreferenceCategory android:title="帐号管理">
+        <com.jenzz.materialpreference.Preference
+            android:key="personInfo"
+            android:title="个人信息"/>
+        <com.jenzz.materialpreference.Preference
+            android:key="changePassword"
+            android:title="修改密码"/>
+    </com.jenzz.materialpreference.PreferenceCategory>
+
+    <com.jenzz.materialpreference.PreferenceCategory android:title="功能设置">
+        <com.jenzz.materialpreference.SwitchPreference
+            android:key="voice"
+            android:title="提示声音"
+            android:summaryOn="提示音开启"
+            android:summaryOff="提示音关闭" />
+        <com.jenzz.materialpreference.SwitchPreference
+            android:key="alert"
+            android:title="告警提醒"
+            android:summaryOn="告警提醒开启"
+            android:summaryOff="告警提醒关闭" />
+    </com.jenzz.materialpreference.PreferenceCategory>
+
+    <com.jenzz.materialpreference.PreferenceCategory android:title="其他设置">
+        <com.jenzz.materialpreference.Preference
+            android:key="networkSetting"
+            android:title="网络设置"/>
+        <com.jenzz.materialpreference.Preference
+            android:key="adviceSubmit"
+            android:title="意见反馈"/>
+        <com.jenzz.materialpreference.Preference
+            android:key="versionCheck"
+            android:title="新版本检测"/>
+        <com.jenzz.materialpreference.Preference
+            android:key="aboutUs"
+            android:title="关于我们"/>
+        <com.jenzz.materialpreference.Preference
+            android:key="userExit"
+            android:title="退出登录"/>
+
+    </com.jenzz.materialpreference.PreferenceCategory>
+</PreferenceScreen>

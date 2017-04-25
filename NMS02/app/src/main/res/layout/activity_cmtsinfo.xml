@@ -1,0 +1,442 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context="com.lemon.c.nms.ui.CMTSInfoActivity">
+
+    <include layout="@layout/classic_toolbar" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="@dimen/elevation_margin"
+                android:layout_marginRight="@dimen/elevation_margin"
+                android:layout_marginTop="@dimen/normal_margin"
+                app:cardBackgroundColor="@color/light_gray"
+                app:cardCornerRadius="5dp"
+                app:cardElevation="3dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/light_gray"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            style="@style/normal_textView_4"
+                            android:text="机房名称" />
+
+                        <TextView
+                            android:id="@+id/device_name"
+                            style="@style/normal_textView_3" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/light_gray"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            style="@style/normal_textView_4"
+                            android:text="CMTS名称" />
+
+                        <TextView
+                            android:id="@+id/CMTS_name"
+                            style="@style/normal_textView_3" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/light_gray"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            style="@style/normal_textView_4"
+                            android:text="端口类型" />
+
+                        <TextView
+                            android:id="@+id/PORT_type"
+                            style="@style/normal_textView_3" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/light_gray"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            style="@style/normal_textView_4"
+                            android:text="端口名称" />
+
+                        <TextView
+                            android:id="@+id/PORT_name"
+                            style="@style/normal_textView_3" />
+                    </LinearLayout>
+
+                    <Button
+                        android:id="@+id/CMTS_ensure"
+                        style="@style/normal_button"
+                        android:layout_width="120dp"
+                        android:layout_height="35dp"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginBottom="5dp"
+                        android:layout_marginTop="5dp"
+                        android:text="@string/ensure" />
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/up_port_info"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="@dimen/elevation_margin"
+                android:layout_marginRight="@dimen/elevation_margin"
+                android:layout_marginTop="@dimen/normal_margin"
+                android:visibility="gone"
+                app:cardBackgroundColor="@color/light_gray"
+                app:cardCornerRadius="5dp"
+                app:cardElevation="3dp"
+                app:contentPadding="5dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_horizontal"
+                        android:text="端口基本信息"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="@dimen/big_text_size" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            style="@style/normal_textView"
+                            android:text="当前状态" />
+
+                        <TextView
+                            android:id="@+id/port_info1"
+                            style="@style/normal_textView_2" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            style="@style/normal_textView"
+                            android:text="对应下行" />
+
+                        <TextView
+                            android:id="@+id/port_info2"
+                            style="@style/normal_textView_2" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            style="@style/normal_textView"
+                            android:text="对应小区" />
+
+                        <TextView
+                            android:id="@+id/port_info3"
+                            style="@style/normal_textView_2" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            style="@style/normal_textView"
+                            android:text="光节点" />
+
+                        <TextView
+                            android:id="@+id/port_info4"
+                            style="@style/normal_textView_2" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            style="@style/normal_textView"
+                            android:text="站点" />
+
+                        <TextView
+                            android:id="@+id/port_info5"
+                            style="@style/normal_textView_2" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            style="@style/normal_textView"
+                            android:text="最大流量" />
+
+                        <TextView
+                            android:id="@+id/port_info6"
+                            style="@style/normal_textView_2" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            style="@style/normal_textView"
+                            android:text="中心频点" />
+
+                        <TextView
+                            android:id="@+id/port_info7"
+                            style="@style/normal_textView_2" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            style="@style/normal_textView"
+                            android:text="调制方式" />
+
+                        <TextView
+                            android:id="@+id/port_info8"
+                            style="@style/normal_textView_2" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            style="@style/normal_textView"
+                            android:text="带宽" />
+
+                        <TextView
+                            android:id="@+id/port_info9"
+                            style="@style/normal_textView_2" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            style="@style/normal_textView"
+                            android:text="SNR" />
+
+                        <TextView
+                            android:id="@+id/port_info10"
+                            style="@style/normal_textView_2" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            style="@style/normal_textView"
+                            android:text="BER" />
+
+                        <TextView
+                            android:id="@+id/port_info11"
+                            style="@style/normal_textView_2" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            style="@style/normal_textView"
+                            android:text="NPA" />
+
+                        <TextView
+                            android:id="@+id/port_info12"
+                            style="@style/normal_textView_2" />
+                    </LinearLayout>
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/down_port_info"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="@dimen/elevation_margin"
+                android:layout_marginRight="@dimen/elevation_margin"
+                android:layout_marginTop="@dimen/normal_margin"
+                android:visibility="gone"
+                app:cardBackgroundColor="@color/light_gray"
+                app:cardCornerRadius="5dp"
+                app:cardElevation="3dp"
+                app:contentPadding="5dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_horizontal"
+                        android:text="端口基本信息"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="@dimen/big_text_size" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            style="@style/normal_textView"
+                            android:text="当前状态" />
+
+                        <TextView
+                            android:id="@+id/down_port_info1"
+                            style="@style/normal_textView_2" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            style="@style/normal_textView"
+                            android:text="最大速率" />
+
+                        <TextView
+                            android:id="@+id/down_port_info2"
+                            style="@style/normal_textView_2" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            style="@style/normal_textView"
+                            android:text="下行频率" />
+
+                        <TextView
+                            android:id="@+id/down_port_info3"
+                            style="@style/normal_textView_2" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            style="@style/normal_textView"
+                            android:text="下行调制" />
+
+                        <TextView
+                            android:id="@+id/down_port_info4"
+                            style="@style/normal_textView_2" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            style="@style/normal_textView"
+                            android:text="发射电平" />
+
+                        <TextView
+                            android:id="@+id/down_port_info5"
+                            style="@style/normal_textView_2" />
+                    </LinearLayout>
+
+                </LinearLayout>
+
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/chart_ber"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="@dimen/elevation_margin"
+                android:layout_marginRight="@dimen/elevation_margin"
+                android:layout_marginTop="@dimen/normal_margin"
+                app:cardBackgroundColor="@color/light_gray"
+                app:cardCornerRadius="5dp"
+                app:cardElevation="3dp"
+                app:contentPadding="5dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_horizontal"
+                        android:text="近6小时SNR趋势图"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="@dimen/big_text_size" />
+
+
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

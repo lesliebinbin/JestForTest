@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="综合查询">
+        <menu>
+            <group android:checkableBehavior="single">
+            <item
+                android:id="@+id/menu_CMTS"
+                android:icon="@drawable/icon_01_p"
+                android:title="CMTS信息" />
+            <item
+                android:id="@+id/menu_SNR"
+                android:icon="@drawable/icon_02_p"
+                android:title="SNR低值端口查询" />
+            <item
+                android:id="@+id/menu_BER"
+                android:icon="@drawable/icon_03_p"
+                android:title="BER高值端口查询" />
+            <item
+                android:id="@+id/menu_CM"
+                android:icon="@drawable/icon_04_p"
+                android:title="CM信息查询" />
+            <item
+                android:id="@+id/menu_DCT"
+                android:icon="@drawable/icon_05_p"
+                android:title="DCT信息查询修改" />
+            <item
+                android:id="@+id/menu_NPA"
+                android:icon="@drawable/icon_06_p"
+                android:title="NPA单据查询" />
+            <item
+                android:id="@+id/menu_spectrum"
+                android:icon="@drawable/icon_07_p"
+                android:title="频谱单据查询" />
+            <item
+                android:id="@+id/menu_netInfo"
+                android:icon="@drawable/icon_08_p"
+                android:title="网络资源查询" />
+            <item
+                android:id="@+id/menu_returnLink"
+                android:icon="@drawable/icon_09_p"
+                android:title="回传链路信息查询" />
+            </group>
+        </menu>
+    </item>
+
+    <item android:title="资料录入">
+        <menu>
+            <item
+                android:id="@+id/menu_DCTInput"
+                android:icon="@drawable/icon_10_p"
+                android:title="DCT信息录入" />
+        </menu>
+
+    </item>
+
+    <item
+        android:id="@+id/menu_setting"
+        android:icon="@drawable/icon_setting"
+        android:title="设置" />
+</menu>

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.lemon.c.nms.ui.TimeSpectrumActivity">
+
+    <include layout="@layout/classic_toolbar" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="@dimen/elevation_margin"
+            android:layout_marginRight="@dimen/elevation_margin"
+            android:layout_marginTop="@dimen/normal_margin"
+            app:cardBackgroundColor="@color/light_gray"
+            app:cardCornerRadius="5dp"
+            app:cardElevation="3dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/light_gray"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        style="@style/normal_textView_4"
+                        android:text="机房名称" />
+
+                    <TextView
+                        android:id="@+id/room_name"
+                        style="@style/normal_textView_3" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/light_gray"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        style="@style/normal_textView_4"
+                        android:text="DS1610" />
+
+                    <TextView
+                        android:id="@+id/DS_name"
+                        style="@style/normal_textView_3" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/light_gray"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        style="@style/normal_textView_4"
+                        android:text="板  卡" />
+
+                    <TextView
+                        android:id="@+id/ds_type"
+                        style="@style/normal_textView_3" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/light_gray"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        style="@style/normal_textView_4"
+                        android:text="DS 端口" />
+
+                    <TextView
+                        android:id="@+id/ds_port"
+                        style="@style/normal_textView_3" />
+                </LinearLayout>
+
+                <Button
+                    android:id="@+id/DS_ensure"
+                    style="@style/normal_button"
+                    android:layout_width="120dp"
+                    android:layout_height="35dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginTop="5dp"
+                    android:text="@string/ensure" />
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+    </LinearLayout>
+
+</LinearLayout>
+
