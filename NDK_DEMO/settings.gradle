@@ -1,1 +1,0 @@
-include ':app', ':mylibrary', ':Test2', ':mylibrary2', ':mytest3'
